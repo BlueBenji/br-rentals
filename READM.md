@@ -1,0 +1,1 @@
+to install simply drag and drop and configure to your liking :D
