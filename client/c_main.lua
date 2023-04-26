@@ -128,7 +128,7 @@ CreateThread(function()
             if dist < 2 and not pressedbutton then
                 DrawText3D(Config.RentalLocation, "Press ~b~[~w~E~b~]~w~ To Rent A Vehicle")
             end
-            if IsControlJustPressed(0, 38) and not pressedbutton then
+            if IsControlJustPressed(0, 38) and dist < 2 and not pressedbutton then
                 pressedbutton = true
             end
             if pressedbutton then
